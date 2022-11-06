@@ -1,0 +1,8 @@
+%sine function for range x
+t = -4:0.01:4; %for specific range
+x = sin(t) ./t;
+plot(t,x);
+title('Sine function for range x');
+xlabel('time');
+ylabel('Amplitude');
+grid on
