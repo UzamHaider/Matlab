@@ -1,0 +1,9 @@
+%Discrete-time unit step function
+t = 0:1:30;
+x = ones(1,length(t));
+stem(t,x);
+axis([-1 25 0 2]); %it's optional, use to scale-up scale-down of axis
+title('Discrete-time unit step function');
+xlabel('time');
+ylabel('Amplitude');
+grid on
