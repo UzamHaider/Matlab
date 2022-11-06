@@ -1,0 +1,8 @@
+%impulse function
+samples = 50; % no. of samples
+Ts = 1/samples;
+t = -0.2:Ts:0.2;
+u = [zeros(1,10) 1 zeros(1,10)]
+stem(t,u);
+axis([-0.3 0.3 -2 2])
+title('Uzam Haider')
